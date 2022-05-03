@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Adicionando injeção de dependência à camada da API
+// Adding dependency injection in API layer
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();

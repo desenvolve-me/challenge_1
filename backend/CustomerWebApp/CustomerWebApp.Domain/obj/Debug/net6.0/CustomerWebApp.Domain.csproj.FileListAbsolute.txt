@@ -2,7 +2,6 @@ C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Do
 C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Domain\bin\Debug\net6.0\CustomerWebApp.Domain.dll
 C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Domain\bin\Debug\net6.0\ref\CustomerWebApp.Domain.dll
 C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Domain\bin\Debug\net6.0\CustomerWebApp.Domain.pdb
-C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Domain\obj\Debug\net6.0\CustomerWebApp.Domain.csproj.AssemblyReference.cache
 C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Domain\obj\Debug\net6.0\CustomerWebApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Domain\obj\Debug\net6.0\CustomerWebApp.Domain.AssemblyInfoInputs.cache
 C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Domain\obj\Debug\net6.0\CustomerWebApp.Domain.AssemblyInfo.cs
