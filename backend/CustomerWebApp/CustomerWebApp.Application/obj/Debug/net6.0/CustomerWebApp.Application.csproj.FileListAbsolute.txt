@@ -1,0 +1,15 @@
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\bin\Debug\net6.0\CustomerWebApp.Application.deps.json
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\bin\Debug\net6.0\CustomerWebApp.Application.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\bin\Debug\net6.0\ref\CustomerWebApp.Application.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\bin\Debug\net6.0\CustomerWebApp.Application.pdb
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\bin\Debug\net6.0\CustomerWebApp.Domain.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\bin\Debug\net6.0\CustomerWebApp.Domain.pdb
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.csproj.AssemblyReference.cache
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.AssemblyInfoInputs.cache
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.AssemblyInfo.cs
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.csproj.CopyComplete
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\ref\CustomerWebApp.Application.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Application\obj\Debug\net6.0\CustomerWebApp.Application.pdb
