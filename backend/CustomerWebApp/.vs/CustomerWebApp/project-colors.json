@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "aaff9531-999f-416a-a2e8-160f5349d6c2": {
+      "ProjectGuid": "aaff9531-999f-416a-a2e8-160f5349d6c2",
+      "DisplayName": "CustomerWebApp.Domain",
+      "ColorIndex": 0
+    },
+    "c76b253e-062b-4699-aece-1f4b3e528d22": {
+      "ProjectGuid": "c76b253e-062b-4699-aece-1f4b3e528d22",
+      "DisplayName": "CustomerWebApp.Infra.Data",
+      "ColorIndex": 1
+    },
+    "353da01c-8619-49a6-bfca-42dd383ccce6": {
+      "ProjectGuid": "353da01c-8619-49a6-bfca-42dd383ccce6",
+      "DisplayName": "CustomerWebApp.Application",
+      "ColorIndex": 2
+    },
+    "5245e9ea-8463-446d-86e9-018424f28c88": {
+      "ProjectGuid": "5245e9ea-8463-446d-86e9-018424f28c88",
+      "DisplayName": "CustomerWebApp.Infra.IoC",
+      "ColorIndex": 3
+    },
+    "b078a7fd-5bd3-4f14-975b-7da9703499f8": {
+      "ProjectGuid": "b078a7fd-5bd3-4f14-975b-7da9703499f8",
+      "DisplayName": "CustomerWebApp.WebAPI",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

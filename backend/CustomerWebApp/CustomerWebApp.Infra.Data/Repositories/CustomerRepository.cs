@@ -32,12 +32,25 @@ namespace CustomerWebApp.Infra.Data.Repositories
 
         public async Task<IEnumerable<Customer>> GetAllCustomersAsync()
         {
-            return await _context.Customers.ToListAsync();
+            var customers = await _context.Customers.ToListAsync();
+            if (customers.Count > 0)
+            {
+                foreach (var customer in customers)
+                {
+                    customer.sBirthDate = customer.BirthDate.ToString().Substring(0, 10);
+                }
+            }
+            return customers;
         }
 
         public async Task<Customer> GetCustomerByCpfAsync(string cpf)
         {
-            return await _context.Customers.Where(c => c.CPF == cpf).FirstOrDefaultAsync();
+            var customer = await _context.Customers.Where(c => c.CPF == cpf).FirstOrDefaultAsync();
+            if (customer != null)
+            {
+                customer.sBirthDate = customer.BirthDate.ToString().Substring(0, 10);
+            }
+            return customer;
         }
     }
 }
