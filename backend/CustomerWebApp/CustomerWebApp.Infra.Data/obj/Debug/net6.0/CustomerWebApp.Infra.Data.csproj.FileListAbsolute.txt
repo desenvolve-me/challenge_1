@@ -1,0 +1,17 @@
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\bin\Debug\net6.0\CustomerWebApp.Infra.Data.deps.json
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\bin\Debug\net6.0\CustomerWebApp.Infra.Data.runtimeconfig.json
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\bin\Debug\net6.0\CustomerWebApp.Infra.Data.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\bin\Debug\net6.0\ref\CustomerWebApp.Infra.Data.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\bin\Debug\net6.0\CustomerWebApp.Infra.Data.pdb
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\bin\Debug\net6.0\CustomerWebApp.Domain.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\bin\Debug\net6.0\CustomerWebApp.Domain.pdb
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.AssemblyInfo.cs
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.csproj.CopyComplete
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\ref\CustomerWebApp.Infra.Data.dll
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.pdb
+C:\Users\e_egi\source\repos\challenge_1\backend\CustomerWebApp\CustomerWebApp.Infra.Data\obj\Debug\net6.0\CustomerWebApp.Infra.Data.genruntimeconfig.cache

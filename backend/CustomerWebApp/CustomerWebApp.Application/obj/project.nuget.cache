@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DWbvCBqVYvoE43CobE0uVK4HmuucwIha+daJ+BT0K+TlBxbJDLi2fIZki51jfjUNoZpTU/+M5ZZ71CgkwZ34vQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\e_egi\\source\\repos\\challenge_1\\backend\\CustomerWebApp\\CustomerWebApp.Application\\CustomerWebApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e_egi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\e_egi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
