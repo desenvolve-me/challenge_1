@@ -59,6 +59,9 @@ export default class Customer extends Component {
                             Pesquisar
                     </button>
                 </div>
+                <br/>
+                <hr/>
+                <div>Resultado da pesquisa</div>
                 <hr/>
                 <br/>
                 <table className="table" style={{marginTop:'4px'}}>

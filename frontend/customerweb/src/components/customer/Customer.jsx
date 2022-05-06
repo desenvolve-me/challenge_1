@@ -11,7 +11,7 @@ const headerProps = {
 
 const baseURL = 'https://localhost:7161/api/customer'
 const initialState = {
-    customer: {name:'',birthdate:new Date(''), cpf:''},
+    customer: {name:'',birthdate:new Date(), cpf:''},
     list:[]
 }
 

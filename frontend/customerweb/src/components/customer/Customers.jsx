@@ -18,6 +18,13 @@ const initialState = {
 export default class Customer extends Component {
     state = {...initialState}
 
+    
+
+    handleChange = (e, p) => {
+        this.setState({page:p})
+        this.state._DATA.jump(p)
+    };
+
     componentWillMount() {
         const url = `${baseURL}/getAllCustomers`
         axios(url).then(
