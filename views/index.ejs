@@ -1,0 +1,35 @@
+<form method="post" action="/api-cadastro-clientes/salvar-dados-cadastrais">
+    <label>Nome</label><br>
+    <input type="text" name="nome">
+    <br><br>
+    <label>CPF</label><br>
+    <!-- <input type="text" name="cpf"> -->
+    <input type="text" name="cpf" onfocus="javascript: retirarFormatacao(this);" onblur="javascript: formatarCampo(this);" maxlength="14"/>
+    <br><br>
+    <label>Data de Nascimento</label><br>
+    <input type="date" name="dataNascimento">
+    <br><br>
+    <input type="submit" value="Cadastrar">
+</form>
+
+<h1>Cadastrados:</h1>
+<ul>
+<% cadastro.forEach(function(cadastro){ %>
+    <li><%= cadastro.nome %></li>
+<% }) %>
+</ul>
+
+<script>
+    function formatarCampo(campoTexto) {
+        if (campoTexto.value.length <= 11) {
+            campoTexto.value = mascaraCpf(campoTexto.value);
+        }
+    }
+    function retirarFormatacao(campoTexto) {
+        campoTexto.value = campoTexto.value.replace(/(\.|\/|\-)/g,"");
+    }
+    function mascaraCpf(valor) {
+        return valor.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g,"\$1.\$2.\$3\-\$4");
+    }
+
+</script>

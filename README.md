@@ -1,3 +1,18 @@
+1 - Após baixar o projeto use o npm install
+
+2 - No terminal do .VSCODE execute o nodemon
+
+3 - Teste o CPF na URL abaixo antes de cadastrar via POSTMAN/THUNDER CLIENT ou qualquer outro de preferência.
+http://localhost:3000/api-cadastro-clientes/obter-cpf-valido/digiteocpfaqui
+
+4 - Acesse a URL abaixo para listar/cadastrar:
+http://localhost:3000/api-cadastro-clientes/obter-dados-cadastrais
+
+**Dê um refresh na página caso necessário
+
+5 - Acesse a URL abaixo para confirmar o cadastro:
+http://localhost:3000/api-cadastro-clientes/obter-cliente-cadastrado/digiteocpfaquidenovo
+
 # Desafio técnico
 
 Escrever uma API de cadastro de clientes (Nome, CPF, nascimento)
@@ -33,3 +48,5 @@ Escrever uma API de cadastro de clientes (Nome, CPF, nascimento)
 - Lembre-se de utilizar boas práticas como: testes, orientação a objetos, design patterns, logs, documentação, etc.
 - É importante ser bem simples rodar sua aplicação em qualquer servidor (independente do sistema operacional ou outros softwres instalados). 
 - Escreva um Readme.md (explique como subir sua aplicação, tecnologias utilizadas, e como rodar os testes)
+
+
