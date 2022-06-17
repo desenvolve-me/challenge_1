@@ -1,6 +1,6 @@
 1 - Após baixar o projeto use o npm install
 
-2 - No terminal do .VSCODE execute o nodemon
+2 - No terminal do .VSCODE ou no CMD na pasta raíz do projeto 'challenge_1' execute o comando 'nodemon' **sem aspas
 
 3 - Teste o CPF na URL abaixo antes de cadastrar via POSTMAN/THUNDER CLIENT ou qualquer outro de preferência.
 http://localhost:3000/api-cadastro-clientes/obter-cpf-valido/digiteocpfaqui

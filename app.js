@@ -99,21 +99,28 @@ app.post('/api-cadastro-clientes/salvar-dados-cadastrais', function(req, res){
     var nome =  typeof req.body.nome === 'undefined' ? cadastrados.nome : req.body.nome;
     var cpf = typeof req.body.cpf === 'undefined' ? cadastrados.cpf : req.body.cpf
     var dataNascimento = typeof req.body.dataNascimento === 'undefined' ? utils.convert.diaMesAnoTimeStamp(cadastrados.dataNascimento) : utils.convert.diaMesAnoTimeStamp(req.body.dataNascimento);
-    
-    sessionCadastro
-    .run('CREATE (cc:Cadastro:Cliente{ nome: $nome, cpf: $cpf, dataNascimento: $dataNascimento }) RETURN cc.nome', 
-        {nome:nome, cpf:cpf, dataNascimento: dataNascimento})
-        .then(function(result){
-            res.redirect('/api-cadastro-clientes/obter-dados-cadastrais');
 
-            sessionCadastro.close();
-        })
-        .catch(function(err){
-            console.log(err);
-    
-        });
+    let cpfComPontos = utils.functions.validaCPFComPontos(cpf)
+    let cpfSemPontos = utils.functions.validaCPFSemPontos(cpf)
+    let cpfFinal = cpfComPontos ? cpfComPontos : cpfSemPontos
 
-    res.redirect('/api-cadastro-clientes/obter-dados-cadastrais');
+    if(cpfFinal){
+        sessionCadastro
+        .run('CREATE (cc:Cadastro:Cliente{ nome: $nome, cpf: $cpf, dataNascimento: $dataNascimento }) RETURN cc.nome', 
+            {nome:nome, cpf:cpf, dataNascimento: dataNascimento})
+            .then(function(){
+                res.redirect('/api-cadastro-clientes/obter-dados-cadastrais');
+
+                sessionCadastro.close();
+            })
+            .catch(function(err){
+                console.log(err);
+        
+            });
+        res.redirect('/api-cadastro-clientes/obter-dados-cadastrais');
+    }else{
+        res.status(422).end("Erro 422"); 
+    }
 });
 
 app.listen(3000);
