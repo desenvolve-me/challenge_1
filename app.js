@@ -58,8 +58,12 @@ app.get('/api-cadastro-clientes/obter-cpf-valido/:cpf', function(req, res){
     const cpfComPontos = utils.functions.validaCPFComPontos(cpf)
     const cpfSemPontos = utils.functions.validaCPFSemPontos(cpf)
     var cpfFinal = cpfComPontos ? cpfComPontos : cpfSemPontos
-
-    res.send(cpfFinal)
+    if(cpfFinal){
+        res.status(200).end("OK");
+    }else{
+        res.status(422).end("Erro 422"); 
+    }
+    //res.send(cpfFinal)
 });
 
 app.get('/api-cadastro-clientes/obter-cliente-cadastrado/:cpf', function(req, res){
